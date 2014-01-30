@@ -1,0 +1,25 @@
+{
+    "name": "topology/topology",
+    "description": "PHP Topology Suite",
+    "keywords": [
+        "topology",
+        "geometry"
+    ],
+    "homepage": "https://github.com/golovanov/topology",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Golovanov",
+            "email": "igor.golovanov@gmail.com",
+            "homepage": "https://github.com/golovanov"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Topology": "src/"
+        }
+    }
+}
